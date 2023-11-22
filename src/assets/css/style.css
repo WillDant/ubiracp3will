@@ -1,0 +1,334 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.principal {
+    height: 80vh;
+    background-image: url(/src/assets/img/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 17px;
+}
+
+header .logo-start img {
+    width: 200px;
+}
+
+header .nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+header .nav ul li a {
+    color: white;
+    
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-box {
+    margin-top: 150px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.main-box h4 {
+    color: rgb(245,245,245);
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Tienne', serif;
+    margin: 0;
+}
+
+.main-box h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.main-content .main-box a {
+    color: white;
+    font-weight: 700;
+    margin-top: 15px;
+    background-color: rgb(254,209,54);
+    padding: 20px;
+}
+
+.contact-section {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-contact-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.fst-text h3 {
+    color: rgb(254,209,54);
+}
+
+.fst-text p {
+    font-family: 'Tienne', serif;
+    color: rgb(119,119,119);
+}
+
+.last-text {
+    margin-top: 20px;
+}
+
+.last-text p {
+    font-family: 'Tienne', serif;
+    color: rgb(119,119,119);
+    margin: 0;
+}
+
+.last-text .botao {
+    margin-top: 50px;
+}
+
+.last-text .botao a {
+    color: white;
+    font-weight: 700;
+    background-color: rgb(254,209,54);
+    padding: 20px;
+    
+}
+
+.people-section {
+    background-color: rgb(245,245,245);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.people-main-text {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.partners-section {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+
+.partner-icon img {
+    border: 7px solid #fff;
+    border-radius: 100%;
+    width: 120px;
+}
+
+.people-main-text p {
+    font-family: 'Tienne', serif;
+    color: rgb(119,119,119);
+    margin: 0;
+}
+
+.apps-section {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-main-text {
+    text-align: center;
+}
+
+.apps-section .app-main-text h3 {
+    color: rgb(254,209,54);
+}
+
+.app-main-text p {
+    font-family: 'Tienne', serif;
+    color: rgb(119,119,119);
+}
+
+.apps-box {
+    display: flex;
+    margin-top: 4%;
+    
+}
+
+.app-box-1 {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.app-box-1 p {
+    font-family: 'Tienne', serif;
+    color: rgb(119,119,119);
+}
+
+.img-app {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.img-app img {
+    width: 300px;
+    
+    
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+}
+
+.cellphone-icons-box {
+    display: flex;
+    width: 70%;
+    
+
+}
+
+.icons-fone img {
+    margin-left: 20px;
+}
+
+.cellphone-img img{
+    width: 350px;
+
+}
+
+.cellphone-icons-box img {
+    width: 60px;
+}
+
+
+.cellphone-section {
+    background-color: rgb(245,245,245);
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cellphone-text {
+    text-align: center;
+}
+
+.cellphone-text p {
+    font-family: 'Tienne', serif;
+    color: rgb(119,119,119);
+}
+
+.mini-contact {
+    background-color: rgb(255,255,255);
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mini-contact-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mini-contact-text h3 {
+    color: rgb(254,209,54);
+}
+
+.mini-contact-text p {
+    font-family: 'Tienne', serif;
+    color: rgb(119,119,119);
+    margin: 0;
+}
+
+.form-section {
+    background-image: url(/src/assets/img/bg-footer.jpg);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    background-color: rgb(255,255,255);
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rodape-start img {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 14rem;
+}
+
+.contact {
+    color: #fff;
+    margin-top: 10%;
+}
+
+.contact-form {
+  
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    margin: 0 10px;
+}
+ 
+.contact-block {
+    width: 380px;
+    display: inline-block;
+     vertical-align: top;
+     margin: 0 80px 0 10px;
+}
+ 
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+ 
+.contact-block p {
+    margin-bottom: 12px;
+    line-height: 1.4;
+    font-size: 14px;
+}
+ 
+.contact-block p a {
+    color: rgb(255,255,255);
+}
+ 
+.contact-block strong, h6 {
+    color: rgb(254,209,54);
+}
